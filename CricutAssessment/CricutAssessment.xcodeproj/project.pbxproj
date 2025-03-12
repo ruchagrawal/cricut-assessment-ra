@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D6D1DCCC2D7FB5C400EFA754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6D1DCB32D7FB5BE00EFA754 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6D1DCBA2D7FB5BE00EFA754;
+			remoteInfo = CricutAssessment;
+		};
+		D6D1DCD62D7FB5C400EFA754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6D1DCB32D7FB5BE00EFA754 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6D1DCBA2D7FB5BE00EFA754;
+			remoteInfo = CricutAssessment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6D1DCBB2D7FB5BE00EFA754 /* CricutAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CricutAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D1DCCB2D7FB5C400EFA754 /* CricutAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CricutAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D1DCD52D7FB5C400EFA754 /* CricutAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CricutAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D6D1DCBD2D7FB5BE00EFA754 /* CricutAssessment */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CricutAssessment;
+			sourceTree = "<group>";
+		};
+		D6D1DCCE2D7FB5C400EFA754 /* CricutAssessmentTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CricutAssessmentTests;
+			sourceTree = "<group>";
+		};
+		D6D1DCD82D7FB5C400EFA754 /* CricutAssessmentUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CricutAssessmentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6D1DCB82D7FB5BE00EFA754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D1DCC82D7FB5C400EFA754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D1DCD22D7FB5C400EFA754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6D1DCB22D7FB5BE00EFA754 = {
+			isa = PBXGroup;
+			children = (
+				D6D1DCBD2D7FB5BE00EFA754 /* CricutAssessment */,
+				D6D1DCCE2D7FB5C400EFA754 /* CricutAssessmentTests */,
+				D6D1DCD82D7FB5C400EFA754 /* CricutAssessmentUITests */,
+				D6D1DCBC2D7FB5BE00EFA754 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6D1DCBC2D7FB5BE00EFA754 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6D1DCBB2D7FB5BE00EFA754 /* CricutAssessment.app */,
+				D6D1DCCB2D7FB5C400EFA754 /* CricutAssessmentTests.xctest */,
+				D6D1DCD52D7FB5C400EFA754 /* CricutAssessmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6D1DCBA2D7FB5BE00EFA754 /* CricutAssessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D1DCDF2D7FB5C400EFA754 /* Build configuration list for PBXNativeTarget "CricutAssessment" */;
+			buildPhases = (
+				D6D1DCB72D7FB5BE00EFA754 /* Sources */,
+				D6D1DCB82D7FB5BE00EFA754 /* Frameworks */,
+				D6D1DCB92D7FB5BE00EFA754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D6D1DCBD2D7FB5BE00EFA754 /* CricutAssessment */,
+			);
+			name = CricutAssessment;
+			packageProductDependencies = (
+			);
+			productName = CricutAssessment;
+			productReference = D6D1DCBB2D7FB5BE00EFA754 /* CricutAssessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6D1DCCA2D7FB5C400EFA754 /* CricutAssessmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D1DCE22D7FB5C400EFA754 /* Build configuration list for PBXNativeTarget "CricutAssessmentTests" */;
+			buildPhases = (
+				D6D1DCC72D7FB5C400EFA754 /* Sources */,
+				D6D1DCC82D7FB5C400EFA754 /* Frameworks */,
+				D6D1DCC92D7FB5C400EFA754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6D1DCCD2D7FB5C400EFA754 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6D1DCCE2D7FB5C400EFA754 /* CricutAssessmentTests */,
+			);
+			name = CricutAssessmentTests;
+			packageProductDependencies = (
+			);
+			productName = CricutAssessmentTests;
+			productReference = D6D1DCCB2D7FB5C400EFA754 /* CricutAssessmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6D1DCD42D7FB5C400EFA754 /* CricutAssessmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D1DCE52D7FB5C400EFA754 /* Build configuration list for PBXNativeTarget "CricutAssessmentUITests" */;
+			buildPhases = (
+				D6D1DCD12D7FB5C400EFA754 /* Sources */,
+				D6D1DCD22D7FB5C400EFA754 /* Frameworks */,
+				D6D1DCD32D7FB5C400EFA754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6D1DCD72D7FB5C400EFA754 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6D1DCD82D7FB5C400EFA754 /* CricutAssessmentUITests */,
+			);
+			name = CricutAssessmentUITests;
+			packageProductDependencies = (
+			);
+			productName = CricutAssessmentUITests;
+			productReference = D6D1DCD52D7FB5C400EFA754 /* CricutAssessmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6D1DCB32D7FB5BE00EFA754 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					D6D1DCBA2D7FB5BE00EFA754 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					D6D1DCCA2D7FB5C400EFA754 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D6D1DCBA2D7FB5BE00EFA754;
+					};
+					D6D1DCD42D7FB5C400EFA754 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D6D1DCBA2D7FB5BE00EFA754;
+					};
+				};
+			};
+			buildConfigurationList = D6D1DCB62D7FB5BE00EFA754 /* Build configuration list for PBXProject "CricutAssessment" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6D1DCB22D7FB5BE00EFA754;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D6D1DCBC2D7FB5BE00EFA754 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6D1DCBA2D7FB5BE00EFA754 /* CricutAssessment */,
+				D6D1DCCA2D7FB5C400EFA754 /* CricutAssessmentTests */,
+				D6D1DCD42D7FB5C400EFA754 /* CricutAssessmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6D1DCB92D7FB5BE00EFA754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D1DCC92D7FB5C400EFA754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D1DCD32D7FB5C400EFA754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6D1DCB72D7FB5BE00EFA754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D1DCC72D7FB5C400EFA754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D1DCD12D7FB5C400EFA754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6D1DCCD2D7FB5C400EFA754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6D1DCBA2D7FB5BE00EFA754 /* CricutAssessment */;
+			targetProxy = D6D1DCCC2D7FB5C400EFA754 /* PBXContainerItemProxy */;
+		};
+		D6D1DCD72D7FB5C400EFA754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6D1DCBA2D7FB5BE00EFA754 /* CricutAssessment */;
+			targetProxy = D6D1DCD62D7FB5C400EFA754 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D6D1DCDD2D7FB5C400EFA754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6D1DCDE2D7FB5C400EFA754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6D1DCE02D7FB5C400EFA754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CricutAssessment/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ra.CricutAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6D1DCE12D7FB5C400EFA754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CricutAssessment/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ra.CricutAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6D1DCE32D7FB5C400EFA754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ra.CricutAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CricutAssessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CricutAssessment";
+			};
+			name = Debug;
+		};
+		D6D1DCE42D7FB5C400EFA754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ra.CricutAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CricutAssessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CricutAssessment";
+			};
+			name = Release;
+		};
+		D6D1DCE62D7FB5C400EFA754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ra.CricutAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CricutAssessment;
+			};
+			name = Debug;
+		};
+		D6D1DCE72D7FB5C400EFA754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ra.CricutAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CricutAssessment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6D1DCB62D7FB5BE00EFA754 /* Build configuration list for PBXProject "CricutAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D1DCDD2D7FB5C400EFA754 /* Debug */,
+				D6D1DCDE2D7FB5C400EFA754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6D1DCDF2D7FB5C400EFA754 /* Build configuration list for PBXNativeTarget "CricutAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D1DCE02D7FB5C400EFA754 /* Debug */,
+				D6D1DCE12D7FB5C400EFA754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6D1DCE22D7FB5C400EFA754 /* Build configuration list for PBXNativeTarget "CricutAssessmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D1DCE32D7FB5C400EFA754 /* Debug */,
+				D6D1DCE42D7FB5C400EFA754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6D1DCE52D7FB5C400EFA754 /* Build configuration list for PBXNativeTarget "CricutAssessmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D1DCE62D7FB5C400EFA754 /* Debug */,
+				D6D1DCE72D7FB5C400EFA754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6D1DCB32D7FB5BE00EFA754 /* Project object */;
+}
